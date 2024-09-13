@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+  
+
+body{
+    background: rgba(0, 0, 0, 0.7) url(https://media.istockphoto.com/id/868408746/photo/assorted-indian-dish.jpg?s=612x612&w=0&k=20&c=XLsAk571Z2kEe_x6TnXWSzsG95-2agp-TcYswQrKHuo=);
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #fc8019;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    transition: 3s;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px rgb(184, 18, 46) inset,0 3px 50px rgb(184, 18, 46) inset,
+    0 3px 50px rgb(184, 18, 46) inset,0 3px 50px rgb(184, 18, 46) inset;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.navbar .reservation{
+    padding: 8px;
+    color: rgb(184, 18, 46);
+    background-color: white;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+}
+
+.content h2{
+    color: rgb(158, 210, 46);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.content h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.content p{
+    color: gold;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+
+.search input{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 15px 100px;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 40px #000 0 0 15px #858585;
+    top: 3px;
+    left: 25px;
+}
+
+.button
+{
+
+    position: absolute;
+    top: 78%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.btn
+{
+    border: 1px solid #fff;
+    margin: 1px;
+    top: 30%;
+    padding: 7px 9px;
+    color: white;
+    font: bold;
+    text-decoration: none;
+    transition: 1s ease-out;
+    border-radius: 5px;
+    padding: 7px 8px;
+    box-shadow: 0 4px 0 yellowgreen;
+}
+.btn:hover
+{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid yellowgreen;
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(2);
+    
+}
